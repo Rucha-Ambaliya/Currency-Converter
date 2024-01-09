@@ -13,27 +13,34 @@ The currency converter allows users to convert values between two selected curre
 - Real-time exchange rate updates.
 - Displays flags for selected currencies.
 
-## Usage
-
-1. Open the `index.html` file in your web browser.
-2. Select the "From" and "To" currencies using the dropdown menus.
-3. Enter the amount you want to convert in the input field.
-4. Click the "Convert" button to see the converted amount.
-
-## Dependencies
-
-- [Currency API](https://github.com/fawazahmed0/currency-api) - Used for fetching the latest exchange rates.
-
-## Setup
-
-No specific setup is required. Simply open the `index.html` file in a web browser to start using the currency converter.
-
 ## How It Works
 
 - The application fetches the latest exchange rates from the Currency API.
 - User selects the "From" and "To" currencies.
 - User enters the amount to be converted.
 - Upon clicking "Convert," the application calculates and displays the converted amount.
+
+## Dependencies
+
+- [Currency API](https://github.com/fawazahmed0/currency-api) - Used for fetching the latest exchange rates.
+
+### Links
+
+- To visit the website:
+
+    https://rucha-ambaliya.github.io/Currency-Converter/
+
+## How to Contribute
+
+- If you'd like to contribute to the project or report issues, feel free to fork the repository and submit pull requests.
+  - Clone the repository to your local machine.
+  - Open `index.html` in your web browser to test.
+- To clone the repository:
+
+   ```bash
+   https://github.com/Rucha-Ambaliya/Currency-Converter.git
+- Feel free to fork this project and make your own improvements! If you have any questions or suggestions, don't hesitate to reach out.
+
 
 ## Acknowledgements
 
