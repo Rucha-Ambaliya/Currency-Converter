@@ -24,7 +24,7 @@ The currency converter allows users to convert values between two selected curre
 
 - [Currency API](https://github.com/fawazahmed0/currency-api) - Used for fetching the latest exchange rates.
 
-### Links
+## Links
 
 - To visit the website:
 
