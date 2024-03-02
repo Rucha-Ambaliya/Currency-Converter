@@ -34,9 +34,7 @@ async function updateExcgRate() {
   const URL = `${BASE_URL}/${fromCurr.value.toLowerCase()}.json`;
   let response = await fetch(URL);
   let data = await response.json();
-  console.log(data);
   let rate = data[fromCurr.value.toLowerCase()][toCurr.value.toLowerCase()];
-  console.log(rate);
   let finalAmt = amtVal * rate;
 
   msg.innerText = `${amtVal} ${fromCurr.value} ≈ ${finalAmt.toFixed(4)} ${
