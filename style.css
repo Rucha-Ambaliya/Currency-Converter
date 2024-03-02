@@ -43,18 +43,7 @@ form input {
   justify-content: space-between;
   align-items: center;
   margin-top: 4vmin;
-  /* background-color: aqua; */
   flex-wrap: wrap;
-}
-
-.from {
-  /* background-color: #af4d98; */
-  width: 15vw;
-}
-
-.to {
-  /* background-color: #af4d98; */
-  width: 15vw;
 }
 
 .select-container img {
