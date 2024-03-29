@@ -5,6 +5,7 @@ const dropdownSel = document.querySelectorAll(".dropdown select");
 const convertBtn = document.querySelector("form button");
 let fromCurr = document.querySelector(".From select");
 let toCurr = document.querySelector(".To select");
+let changeI = document.querySelector("i");
 const msg = document.querySelector(".msg");
 
 for (let select of dropdownSel) {
@@ -56,5 +57,14 @@ const updateFlag = (element) => {
 
 convertBtn.addEventListener("click", (evt) => {
   evt.preventDefault();
+  updateExcgRate();
+});
+
+changeI.addEventListener("click", () => {
+  let temp = fromCurr.value;
+  fromCurr.value = toCurr.value;
+  toCurr.value = temp;
+  updateFlag(fromCurr); 
+  updateFlag(toCurr); 
   updateExcgRate();
 });
