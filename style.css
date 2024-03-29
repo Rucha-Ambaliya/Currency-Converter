@@ -112,8 +112,9 @@ form button {
   .select-container select {
     font-size: 2.5vmin;
     height: 7vmin;
-    font-weight: 800;
+    font-weight: 900;
     width: 50vmin;
+    text-align: center;
   }
   .select-container {
     display: flex;
